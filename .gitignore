@@ -1,3 +1,7 @@
+# Project is still young and we aren't compiling SASS with Grunt.
+# Keeping CSS folder in here for now.
+# css/
+
 # Logs
 logs
 *.log
