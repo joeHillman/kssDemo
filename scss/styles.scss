@@ -1,0 +1,86 @@
+// Button
+//
+// Your standard button suitable for clicking.
+//
+// .btn-primary   - Modifier for primary choice.
+// .btn-primary:hover   - Highlights when hovering.
+// .btn-primary:focus   - Effects for on focus.
+// .btn-default   - Modifier for secondary choice.
+// .btn-default:hover   - Highlights when hovering.
+// .btn-default:focus   - Effects for on focus.
+// .btn-small.btn-primary - Modifier for small button .
+// .btn-small.btn-primary:hover - Modifier for small button .
+// .btn-small.btn-primary:focus - Modifier for small button .
+// .btn-small.btn-default - Modifier for small button .
+// .btn-small.btn-default:hover - Modifier for small button .
+// .btn-small.btn-default:focus - Modifier for small button .
+// .btn-disabled   - Modifier for disabled style .
+//
+// Markup: <button type="submit" class="btn {{modifier_class}}">{{modifier_class}} example</button>
+//
+// Style guide: components.button
+.btn {
+  font-family: "HelveticaNeue", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #4c9dca;
+  border-color: #3483af;
+}
+
+.btn-default {
+  color: #555;
+  background-color: #eee;
+  border-color: #d5d5d5;
+}
+
+.btn-small {
+  padding: 3px 8px;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 3px;
+}
+
+.btn.btn-disabled,
+.btn.disabled,
+.btn[disabled] {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: .6;
+}
+
+.btn-primary:hover {
+  color: #fff;
+}
+
+.btn:hover,
+.btn:focus {
+  text-decoration: none;
+}
+
+.btn-primary:hover,
+.btn-primary.hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #3689b7;
+  border-color: #3380ab;
+}
