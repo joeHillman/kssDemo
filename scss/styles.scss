@@ -19,6 +19,15 @@
 // Markup: <button type="submit" class="btn {{modifier_class}}">{{modifier_class}} example</button>
 //
 // Style guide: components.button
+
+// Demo markup is relative to styleguide.
+// We can insert {{modifer_class}} in the markup templates to get the classes generated.
+// It's not clear if we can pass this in as an argument with the markup source. I've tried a few things, but no luck.
+// Markup: {
+//          ({{}},.html),
+//          (.html, {{}})
+//         }
+// Anything before or after file path breaks the import.
 .btn {
   font-family: "HelveticaNeue", "Helvetica Neue", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
